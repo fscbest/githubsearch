@@ -1,0 +1,54 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+/bower_components
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+*.launch
+.settings/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log*
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+
+src/*/*.js
+*.map
+
+*.component.js
+*.component.spec.js
+*.service.js
+*.service.spec.js
+
+src/app/tasks/task.js
+src/app/tasks/task.js
+src/app/tasks/task-template.js
+src/app/tasks/task.js
+src/system-config.js
+src/app/tasks/task-list/shared/index.js
+src/app/tasks/task-list/index.js
+src/app/persons/customer.js
+src/app/persons/user.js
+src/app/persons/provider.js
+
+app/*.js
