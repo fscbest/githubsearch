@@ -10,11 +10,18 @@ import any = jasmine.any;
 })
 export class ProfileComponent {
   user = [];
+  repos = [];
   constructor(private _githubService: GithubService){
     this._githubService.getUser().subscribe(user => {
       console.log("User: " );
       console.log(user);
       this.user = user;
+    })
+
+    this._githubService.getRepos().subscribe(repos => {
+      console.log("Repos: " );
+      console.log(repos);
+      this.repos = repos;
     })
   }
 }
